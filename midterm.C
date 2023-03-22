@@ -7,4 +7,6 @@
 		h1.Fill(scores[i]);
 	}
 	h1.Draw();
+
+	gPad->Print("midterm.pdf");
 }
